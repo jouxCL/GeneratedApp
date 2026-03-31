@@ -8,7 +8,7 @@ class AppConstants {
   static const String appName = 'GeneratedApp';
   static const String primaryHex = '#6750A4';
   static const String accentHex = '#CCC2DC';
-  
+
   // Agrega más constantes aquí...
 }
 
