@@ -97,10 +97,7 @@ class _HomeScreenState extends State<HomeScreen>
         backgroundColor: const Color(0xFF6750A4),
         foregroundColor: Colors.white,
         actions: [
-          IconButton(
-            icon: const Icon(Icons.settings),
-            onPressed: () {},
-          ),
+          IconButton(icon: const Icon(Icons.settings), onPressed: () {}),
         ],
       ),
       body: Center(
@@ -136,7 +133,8 @@ class _HomeScreenState extends State<HomeScreen>
                       if (_isRunning)
                         Positioned.fill(
                           child: CircularProgressIndicator(
-                            value: 1 -
+                            value:
+                                1 -
                                 (totalSeconds /
                                     (_isWorkTime
                                         ? _workMinutes * 60
@@ -172,7 +170,9 @@ class _HomeScreenState extends State<HomeScreen>
                       borderRadius: BorderRadius.circular(20),
                     ),
                     padding: const EdgeInsets.symmetric(
-                        horizontal: 32, vertical: 16),
+                      horizontal: 32,
+                      vertical: 16,
+                    ),
                   ),
                   child: Row(
                     children: [
@@ -192,7 +192,9 @@ class _HomeScreenState extends State<HomeScreen>
                       borderRadius: BorderRadius.circular(20),
                     ),
                     padding: const EdgeInsets.symmetric(
-                        horizontal: 32, vertical: 16),
+                      horizontal: 32,
+                      vertical: 16,
+                    ),
                   ),
                   child: const Row(
                     children: [
@@ -238,14 +240,8 @@ class _HomeScreenState extends State<HomeScreen>
       ),
       bottomNavigationBar: NavigationBar(
         destinations: const [
-          NavigationDestination(
-            icon: Icon(Icons.home),
-            label: 'Inicio',
-          ),
-          NavigationDestination(
-            icon: Icon(Icons.history),
-            label: 'Historial',
-          ),
+          NavigationDestination(icon: Icon(Icons.home), label: 'Inicio'),
+          NavigationDestination(icon: Icon(Icons.history), label: 'Historial'),
           NavigationDestination(
             icon: Icon(Icons.analytics),
             label: 'Estadísticas',

@@ -17,9 +17,7 @@ class GeneratedApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: const Color(0xFF6750A4)),
       ),
       initialRoute: '/',
-      routes: {
-        '/': (context) => const HomeScreen(),
-      },
+      routes: {'/': (context) => const HomeScreen()},
     );
   }
 }
