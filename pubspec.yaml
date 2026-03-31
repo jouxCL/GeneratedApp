@@ -1,0 +1,22 @@
+name: generatedapp
+description: "GeneratedApp"
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # =========================================================================
+  # TODO: AGENTE OMEGA - Añade aquí las dependencias que consideres necesarias
+  # para construir la aplicación con el máximo nivel de calidad y creatividad.
+  # (ej: manejo de estado, red, UI, etc.)
+  # =========================================================================
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
